@@ -21,11 +21,8 @@ public class Exercicio01{
       if(idade < 16){
         System.out.println("Você não pode votar!");
       }
-      else if(idade > 18){
+      else if(idade >= 18 && idade < 70){
         System.out.println("Você é obrigado a votar!");
-      }
-      else if(idade < 70){
-        System.out.println("Você é obrigado a ter o titulo de eleitor e obrigado a votar!");
       }
       else{
         System.out.println("Você não é mais obrigado a voltar");
