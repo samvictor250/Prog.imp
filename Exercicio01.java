@@ -2,9 +2,10 @@ import java.util.Scanner;
 
 public class Exercicio01{
   public static Scanner input = new Scanner(System.in);
-  // Constante
   public static final int ANO_ATUAL = 2026;
+
   public static void main (String[] args){
+      // Inserção de dados
       int idade;
       System.out.println("Digite sua idade: ");
       idade = input.nextInt();
